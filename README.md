@@ -1,3 +1,3 @@
 # legend-online-project
 
-ÇİFTLİK BOTU LEGEND ONLİNE BROV CLİENTTA ÇALIŞIR,1920 1080 çözünürlük olması gereklidir.
+Çiftlik botu legend online brov client'ta çalışır,1920 1080 çözünürlük olması gereklidir.
