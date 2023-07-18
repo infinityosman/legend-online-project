@@ -37,19 +37,19 @@ while True:
     if keyboard.is_pressed("esc"):
         break
 
-    energy = imagesearcharea("energy.png",1310,336,1351,657,precision=0.8)
-    collect = imagesearcharea("collect.png",1310,336,1351,657,precision=0.8)
-    grass = imagesearcharea("grass.png",1310,336,1351,657,precision=0.8)
-    revive = imagesearcharea("revive.png",1310,336,1351,657,precision=0.8)
-    wormhole = imagesearcharea("wormhole.png",1310,336,1351,657,precision=0.8)
-    care = imagesearcharea("care.png",1310,336,1351,657,precision=0.8)
-    pill = imagesearcharea("pill.png",1310,336,1351,657,precision=0.8)
-    collectall = imagesearcharea("collectall.png",1155,680,1350,800,precision=0.8)
-    nextpage = imagesearcharea("nextpage.png",1158,655,1353,685,precision=0.8)
-    lastpage = imagesearcharea("lastpage.png",1158,655,1353,685,precision=0.8)
-    firstpage = imagesearcharea("firstpage.png",1158,655,1353,685,precision=0.8)
-    barn = imagesearcharea("barn.png",497,246,1376,819,precision=0.8)
-    farm = imagesearcharea("farm.png",497,246,1376,819,precision=0.8)
+    energy = imagesearcharea("images\energy.png",1310,336,1351,657,precision=0.8)
+    collect = imagesearcharea("images\collect.png",1310,336,1351,657,precision=0.8)
+    grass = imagesearcharea("images\grass.png",1310,336,1351,657,precision=0.8)
+    revive = imagesearcharea("images\\revive.png",1310,336,1351,657,precision=0.8)
+    wormhole = imagesearcharea("images\wormhole.png",1310,336,1351,657,precision=0.8)
+    care = imagesearcharea("images\care.png",1310,336,1351,657,precision=0.8)
+    pill = imagesearcharea("images\pill.png",1310,336,1351,657,precision=0.8)
+    collectall = imagesearcharea("images\collectall.png",1155,680,1350,800,precision=0.8)
+    nextpage = imagesearcharea("images\\nextpage.png",1158,655,1353,685,precision=0.8)
+    lastpage = imagesearcharea("images\lastpage.png",1158,655,1353,685,precision=0.8)
+    firstpage = imagesearcharea("images\\firstpage.png",1158,655,1353,685,precision=0.8)
+    barn = imagesearcharea("images\\barn.png",497,246,1376,819,precision=0.8)
+    farm = imagesearcharea("images\\farm.png",497,246,1376,819,precision=0.8)
     
     if collectall[0] != -1:
         #tümünü topla ekranda ise
@@ -131,7 +131,7 @@ while True:
                                                 
   
     else:
-        print("bulunamadı")
+        print("Bulunamadı")
 
     time.sleep(beklemesuresi)
         
